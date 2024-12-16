@@ -1,3 +1,7 @@
+import StyledButton from "../Components/styledButton";
+import StyledUserInput from "../Components/styleduserInput";
+import StyledPwdInput from "../Components/styledPwdInput";
+
 function App() {
   return (
     <>
@@ -31,44 +35,9 @@ function App() {
           >
             Login
           </h2>
-          <input
-            type="text"
-            id="userName"
-            placeholder="Username"
-            style={{
-              width: "90%",
-              margin: "5px",
-              fontFamily: "cursive",
-              fontSize: "16px",
-              borderRadius: "5px",
-              textAlign: "center",
-            }}
-          />
-          <input
-            type="password"
-            id="pwd"
-            placeholder="Password"
-            style={{
-              width: "90%",
-              margin: "5px",
-              fontFamily: "cursive",
-              fontSize: "16px",
-              borderRadius: "5px",
-              textAlign: "center",
-            }}
-          />
-          <button
-            style={{
-              fontFamily: "cursive",
-              fontSize: "20px",
-              backgroundColor: "lightBlue",
-              width: "91.5%",
-              borderRadius: "5px",
-              fontSize: "16px",
-            }}
-          >
-            Submit
-          </button>
+          <StyledUserInput />
+          <StyledPwdInput />
+          <StyledButton />
         </div>
       </body>
     </>
