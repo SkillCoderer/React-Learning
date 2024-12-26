@@ -1,4 +1,4 @@
-import CustomInput from "./CustomInput";
+import CustomInput from "./Input-Component/CustomInput";
 
 function FormComponent() {
   return (
