@@ -1,9 +1,13 @@
-import FormComponent from "../FormComponent";
 import "./styles.css";
-function CustomInput() {
+
+function CustomInput(props) {
   return (
     <>
-      <input type="text" placeholder="Enter-the-Data" className="inputStyles" />
+      <input
+        type="text"
+        placeholder={props.placeholder}
+        className="input_styles"
+      />
       <br />
     </>
   );
