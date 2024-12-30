@@ -1,4 +1,4 @@
-import CustomInput from "../input-component/CustomInput";
+import CustomInput from "../inputComponent/CustomInput";
 import CustomButton from "../customButton/CustomButton";
 
 function FormComponent() {
