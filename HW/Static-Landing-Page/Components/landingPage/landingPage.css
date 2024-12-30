@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+  background-color: whitesmoke;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgb(229, 225, 225);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leftSection img {
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px;
+}
+
+.rightSection {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.rightSection h1 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  background-color: whitesmoke;
+  color: black;
+  border: 1px dotted black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  padding: 8px;
+  font-size: 0.9rem;
+  color: whitesmoke;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
